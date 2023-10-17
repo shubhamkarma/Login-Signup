@@ -1,5 +1,4 @@
 const axios = require('axios')
-const { response } = require('express')
 
 exports.posts = async(req,res)=>{
         console.log('typicode api called')

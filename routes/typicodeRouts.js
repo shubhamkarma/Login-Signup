@@ -4,6 +4,6 @@ const authentication = require('../middleware/authenticateToken')
 
 const router = Router()
 
-router.get('/posts',authentication, typicodeController.posts)
+router.get('/posts', typicodeController.posts)
 
 module.exports = router
