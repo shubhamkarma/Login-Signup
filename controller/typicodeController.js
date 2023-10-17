@@ -5,7 +5,7 @@ exports.posts = async(req,res)=>{
         axios.get('https://jsonplaceholder.typicode.com/posts')
         .then((response)=>{
             console.log(response.data)
-            res.send(response.data)
+            res.json(response.data)
         })
         .catch((err)=>{
             console.log(err)
